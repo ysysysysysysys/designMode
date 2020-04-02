@@ -5,7 +5,7 @@ public class ma {
         AbstractClass a = new ConcreateA();
         a.TemplateMethod();
 
-        AbstractClass abstractClass = new ConcreateA();
+        AbstractClass abstractClass = new ConcreateB();
         abstractClass.TemplateMethod();
     }
 }
